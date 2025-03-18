@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Asha Abhilash - Resume</h1>
+        <div class="tabs">
+            <button class="tab-button active" onclick="openTab(event, 'objective')">Objective</button>
+            <button class="tab-button" onclick="openTab(event, 'academic')">Academic Details</button>
+            <button class="tab-button" onclick="openTab(event, 'experience')">Experience</button>
+            <button class="tab-button" onclick="openTab(event, 'publications')">Publications</button>
+            <button class="tab-button" onclick="openTab(event, 'achievements')">Achievements</button>
+            <button class="tab-button" onclick="openTab(event, 'conferences')">Conferences</button>
+            <button class="tab-button" onclick="openTab(event, 'contact')">Contact</button>
+        </div>
+        
+        <div class="tab-content active" id="objective">
+            <h2>Objective</h2>
+            <p>To impart knowledge to children using modern and traditional approaches...</p>
+        </div>
+        <div class="tab-content" id="academic">
+            <h2>Academic Details</h2>
+            <p>BSc Maths - Calicut University (85%)...</p>
+        </div>
+        <div class="tab-content" id="experience">
+            <h2>Experience</h2>
+            <p>17 years of teaching experience at MIT AOE Alandi...</p>
+        </div>
+        <div class="tab-content" id="publications">
+            <h2>Publications</h2>
+            <p>A textbook on Discrete Mathematics for Sant Gadge Baba Amravati University...</p>
+        </div>
+        <div class="tab-content" id="achievements">
+            <h2>Achievements</h2>
+            <p>Top 30 percentile globally in International Teacher’s Olympiad 2023...</p>
+        </div>
+        <div class="tab-content" id="conferences">
+            <h2>Conferences</h2>
+            <p>Participated in multiple international and national conferences...</p>
+        </div>
+        <div class="tab-content" id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: aabhilash@mitaoe.ac.in | Phone: 8380066461</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
